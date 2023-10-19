@@ -20,5 +20,5 @@ class TestOtp(UT.TestCase):
         otp_type = resut_type.isdigit()
         expected_type = True
         self.assertEqual(otp_type, expected_type)
-if _name_ == '_main_':
+if __name__ == '__main__':
     pytest.main()
