@@ -3,7 +3,7 @@ import pytest
 import otp2 as OTP
 class TestOtp(UT.TestCase):
     def test_validatemail(self):
-        result = OTP.validateEmailID("aradwadrushabhgmail.com")
+        result = OTP.validateEmailID("aradwadrushabh@gmail.com")
         expected = True
         self.assertEqual(result, expected)
 
